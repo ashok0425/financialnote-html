@@ -7,12 +7,19 @@ navBtns.forEach(navBtn => {
     })
 })
 
-let canvas = document.getElementById('canvas')
-let view = new Viewer(canvas, img)
-let img = document.getElementById("img");
-view.draw();
+// Detail Zoom 
 
+if (screen.width > 575) {
 
+    $('.canvas_zoom').zoom({
+        magnify: 1.5,
+    })
+}
+else {
+    $('.canvas_zoom').zoom({
+        magnify: .5,
+    })
+}
 if (document.querySelector('.events')) {
     new Splide('.events', {
         type: 'loop',

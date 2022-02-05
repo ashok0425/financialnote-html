@@ -664,6 +664,16 @@ footer {
         margin-bottom: 10px;
     }
 }
+.canvas_zoom {
+    display: flex;
+    width: 80vw;
+    margin-inline: auto;
+    img {
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+}
+
 @media print {
     .top_bar,
     .hamburger,
@@ -698,7 +708,7 @@ footer {
             position: absolute;
             top: 0;
             left: 50%;
-            transform: translate(-50%,-20%);
+            transform: translate(-50%, -20%);
             margin: 0;
         }
         .dropdown-menu {
@@ -806,7 +816,7 @@ footer {
     }
     .header {
         .navbar-brand {
-            transform: translate(-50%,-15%);
+            transform: translate(-50%, -15%);
             margin: 0;
             width: 250px;
         }

@@ -1293,6 +1293,19 @@ footer .footer_bot p a {
   margin-bottom: 10px;
 }
 
+.canvas_zoom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  margin-inline: auto;
+}
+
+.canvas_zoom img {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
 @media print {
   .top_bar,
   .hamburger,
